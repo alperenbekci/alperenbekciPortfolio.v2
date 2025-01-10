@@ -4,10 +4,13 @@ import { FaReact } from "react-icons/fa";
 
 import ranval from "@/public/ranval.png";
 import mrairdropapp from "@/public/mrairdropapp.png";
-import trilemma from "@/public/trilemma.png";
+import trilema from "@/public/trilema.png";
 import borusan from "@/public/borusan.png";
 import anadolu from "@/public/anadolu.png";
 import tvote from "@/public/tvote.png";
+import forevermessages from "@/public/forevermessages.png";
+import marunfiapp from "@/public/marunfiapp.png";
+import eduflow from "@/public/eduflow.png";
 
 export const links = [
   {
@@ -38,48 +41,139 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Sales and Marketing Manager | Masev",
-    location: "Istanbul",
+    title: "Team Lead - Full-Stack Developer | Trilema ",
+    location: "İstanbul",
     description:
-      "Managing and executing e-commerce operations, conducting sales and marketing activities, market analysis and calculating profitability",
+      "Led the design and development of the Trilemma Smart Wallet mobile application, including SDK service creation and its integration. Developed a web application and dashboard for the SDK, alongside crafting cohesive brand designs.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022",
+    date: "2024",
   },
   {
-    title: "Full-Stack Developer | Karadag",
-    location: "Istanbul",
+    title: "Full-Stack Developer | Trio Blockchain Labs",
+    location: "İstanbul",
     description:
-      "Designing e-commerce and corporate applications from start to finish, setting them up with brand identity, implementing and publishing.",
-    icon: React.createElement(FaReact),
+      "Contributed to various global and local projects by developing web applications with blockchain integration and designing innovative solutions.",
+    icon: React.createElement(CgWorkAlt),
     date: "2023",
   },
   {
     title: "Trading Associate | KoinBasket",
     location: "Singapore | Remote",
     description:
-      "Trading partner collaboration and marketing, application analysis, market analysis, product development.",
+      "Collaborated with trading partners on Web3 marketing strategies, conducted in-depth market analysis, and contributed to product development initiatives.",
     icon: React.createElement(CgWorkAlt),
     date: "2023",
   },
   {
-    title: "Team Lead - Full-Stack Developer | Trio Labs Hackhathon Team ",
-    location: "İstanbul",
+    title: "Full-Stack Developer | Karadag",
+    location: "Istanbul",
     description:
-      "Developing open-source projects for Global Hackathons, managing team members, developing and implementing project ideas.",
-    icon: React.createElement(CgWorkAlt),
+      "Designed and deployed e-commerce and corporate applications with cohesive brand identity integration. Delivered high-quality solutions from concept to production.",
+    icon: React.createElement(FaReact),
     date: "2023",
   },
   {
-    title: "Lead - Full-Stack Developer | Trilemma Team",
-    location: "İstanbul",
+    title: "Sales and Marketing Manager | Masev",
+    location: "Istanbul",
     description:
-      "Developing open-source projects for National Hackathons (especially Teknofest), developing and implementing project ideas.",
+      "Oversaw e-commerce operations, implemented data-driven sales strategies, conducted market analysis, and optimized profitability through effective planning.",
     icon: React.createElement(CgWorkAlt),
-    date: "2024",
+    date: "2022",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Trilema Smart Wallet ",
+    description:
+      "Trilema's official website for Trilema Smart Wallet and Trilema SDK products.",
+    tags: [
+      "React",
+      "Next.js",
+      "React Native",
+      "Expo",
+      "Tailwind",
+      "TypeScript",
+      "Solidity",
+      "Ethers.js",
+    ],
+    imageUrl: trilema,
+    href: "https://trilema.io",
+  },
+  {
+    title: "Forever Messages",
+    description:
+      "Forever Messages is a blockchain-based platform for creating and sharing messages with the community.",
+    tags: ["React", "Solidity", "Ethers.js", "Next.js", "Tailwind"],
+    imageUrl: forevermessages,
+    href: "https://forever-messages.vercel.app/",
+  },
+  {
+    title: "EduFlow",
+    description:
+      "A decentralized, blockchain-based platform offering a StackOverflow-like experience for users.",
+    tags: ["React", "Next.js", "Solidity", "Ethers.js", "Tailwind"],
+    imageUrl: eduflow,
+    href: "https://eduflow-tan.vercel.app/",
+  },
+  {
+    title: "Borusan AI Assistant",
+    description:
+      "AI assistant that provides information about Borusan Otomotiv's products and services with rate limits.",
+    tags: ["Next.js", "OpenAI", "Tailwind", "TypeScript", "Redis"],
+    imageUrl: borusan,
+    href: "https://github.com/alperenbekci/borusan-otomotiv-aibot",
+  },
+
+  {
+    title: "T-Vote DAO",
+    description:
+      "Decentralized voting application developed for Google Hackathon, allowing users to vote on proposals.",
+    tags: ["Hardhat", "Solidity", "Ethers.js", "React"],
+    imageUrl: tvote,
+    href: "https://github.com/alperenbekci/tvote-app",
+  },
+  {
+    title: "Anadolu Sigorta Loyalty App",
+    description:
+      "Loyalty app that allows users to earn native-tokens by purchasing insurance and use them in various campaigns.",
+    tags: ["React", "Next.js", "Solidity", "Ethers.js"],
+    imageUrl: anadolu,
+    href: "https://github.com/alperenbekci/anadolu-sigorta",
+  },
+
+  {
+    title: "Marunfi App",
+    description:
+      "A wallet-supported token airdrop and Swap platform developed for Marmara University.",
+    tags: [
+      "React",
+      "Next.js",
+      "Solidity",
+      "Ethers.js",
+      "Chakra UI",
+      "Framer Motion",
+      "Hardhat",
+      "ThidrWeb",
+    ],
+    imageUrl: marunfiapp,
+    href: "https://github.com/alperenbekci/marunfi-app",
+  },
+  {
+    title: "RanVal-ETH",
+    description:
+      "Decentralized AI application allowing users to generate NFTs via AI model.",
+    tags: [
+      "Solidity",
+      "React",
+      "Stable-Diffusion",
+      "NFT-Storage",
+      "Ethers.js",
+      "Hardhat",
+    ],
+    imageUrl: ranval,
+    href: "https://github.com/alperenbekci/ranval-eth",
+  },
   {
     title: "Mr Airdrop",
     description:
@@ -87,60 +181,13 @@ export const projectsData = [
     tags: [
       "React",
       "Next.js",
-      "Chackra UI ",
+      "Chakra UI",
       "Tailwind",
       "TypeScript",
       "Solana.js",
     ],
     imageUrl: mrairdropapp,
     href: "https://github.com/alperenbekci/mr-airdrop",
-  },
-
-  {
-    title: "RanVal-ETH",
-    description:
-      "Decentralized AI application allowing users to generate NFT's via AI model.",
-    tags: [
-      "Express.js",
-      "Solidity",
-      "React",
-      "Stable-Diffusion",
-      "NFT-Storage",
-    ],
-    imageUrl: ranval,
-    href: "https://github.com/alperenbekci/ranval-eth",
-  },
-  {
-    title: "Borusan AI Assistant",
-    description:
-      " AI assistant that provides information about Borusan Otomotiv's products and services with rate limits.",
-    tags: ["Next.js", "OpenAI", "Tailwind", "TypeScript", "Redis"],
-    imageUrl: borusan,
-    href: "https://github.com/alperenbekci/borusan-otomotiv-aibot",
-  },
-  {
-    title: "Anadolu Sigorta Loyalty App",
-    description:
-      " Loyalty app that allows users to earn native-tokens by purchasing insurance and use them in various campaigns.",
-    tags: ["React", "Solidity", "Ethers.js"],
-    imageUrl: anadolu,
-    href: "https://github.com/alperenbekci/anadolu-sigorta",
-  },
-  {
-    title: "T-Vote DAO",
-    description:
-      " Decentralized voting application that allows users to vote on proposals",
-    tags: ["Hardhat", "Solidity", "Ethers.js", "React"],
-    imageUrl: tvote,
-    href: "https://github.com/alperenbekci/tvote-app",
-  },
-  {
-    title: "Trilemma Website",
-    description:
-      " Trilemma team's official website that provides information about the team and the projects we have developed.",
-    tags: [" Next.js", "Tailwind", "TypeScript", "Framer Motion", "GSAP"],
-    imageUrl: trilemma,
-    href: "https://github.com/alperenbekci/trilemma-website.git",
   },
 ] as const;
 

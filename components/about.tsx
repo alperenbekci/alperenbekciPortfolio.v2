@@ -27,15 +27,15 @@ export default function About() {
 
       <p>
         By adopting the developing technologies in the Web3 world, I turned to
-        this field and started creating projects for hackathons under the
-        mentorship of <span className="font-bold ">Trio Labs</span>. As my
+        this field and started creating projects for WEB3 with
+        <span className="font-bold "> Trio Blockchain Labs</span>. As my
         knowledge of Web3 continued to grow, I began to use it for investments
         and advisory services, portfolio management and partnerships.
       </p>
       <p>
         I am currently expanding my expertise in the web3 field while also I
-        work on the development of SaaS applications with my team{" "}
-        <span className="font-bold ">Trilemma. </span>
+        work on the development of SaaS application with my team{" "}
+        <span className="font-bold ">Trilema. </span>
       </p>
     </motion.section>
   );
